@@ -87,17 +87,17 @@
 <meta property="og:site_name" content="Recording and Buliding">
 <meta property="og:description" content="1刻意，坚持开始持续学习。 Algrothom 学习leetcode 题目学习求解problem135. Candy(https://leetcode.com/problems/candy/)There are N children standing in a line. Each child is assigned a rating value. You are giving candies t">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/2019/03/23/ARST-First-content/ARST-First-content/image/多线程简介.png">
-<meta property="og:image" content="http://yoursite.com/2019/03/23/ARST-First-content/ARST-First-content/image/process%20and%20thread.jpg">
-<meta property="og:image" content="http://yoursite.com/2019/03/23/ARST-First-content/ARST-First-content/image/cp.jpg">
-<meta property="og:image" content="http://yoursite.com/2019/03/23/ARST-First-content/ARST-First-content/image/output_5_1.png">
-<meta property="og:image" content="http://yoursite.com/2019/03/23/ARST-First-content/ARST-First-content/image/output_6_1.png">
-<meta property="og:image" content="http://yoursite.com/2019/03/23/ARST-First-content/ARST-First-content/image/output_7_0.png">
-<meta property="og:updated_time" content="2019-03-23T13:29:08.431Z">
+<meta property="og:image" content="http://yoursite.com/2019/03/23/ARST-First-content/多线程简介.png">
+<meta property="og:image" content="http://yoursite.com/2019/03/23/ARST-First-content/process%20and%20thread.jpg">
+<meta property="og:image" content="http://yoursite.com/2019/03/23/ARST-First-content/cp.jpg">
+<meta property="og:image" content="http://yoursite.com/2019/03/23/ARST-First-content/output_5_1.png">
+<meta property="og:image" content="http://yoursite.com/2019/03/23/ARST-First-content/output_6_1.png">
+<meta property="og:image" content="http://yoursite.com/2019/03/23/ARST-First-content/output_7_0.png">
+<meta property="og:updated_time" content="2019-03-23T13:43:10.895Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ARST First content">
 <meta name="twitter:description" content="1刻意，坚持开始持续学习。 Algrothom 学习leetcode 题目学习求解problem135. Candy(https://leetcode.com/problems/candy/)There are N children standing in a line. Each child is assigned a rating value. You are giving candies t">
-<meta name="twitter:image" content="http://yoursite.com/2019/03/23/ARST-First-content/ARST-First-content/image/多线程简介.png">
+<meta name="twitter:image" content="http://yoursite.com/2019/03/23/ARST-First-content/多线程简介.png">
 
 
 
@@ -391,12 +391,12 @@
 <h1 id="Reviews"><a href="#Reviews" class="headerlink" title="Reviews"></a>Reviews</h1><h2 id="多线程的简介-A-gentle-introduction-to-multithreading"><a href="#多线程的简介-A-gentle-introduction-to-multithreading" class="headerlink" title="多线程的简介(A gentle introduction to multithreading)"></a>多线程的简介(A gentle introduction to multithreading)</h2><p>出处： <a href="https://www.internalpointers.com/post/gentle-introduction-multithreading" target="_blank" rel="noopener">https://www.internalpointers.com/post/gentle-introduction-multithreading</a></p>
 <h3 id="导图总结"><a href="#导图总结" class="headerlink" title="导图总结"></a>导图总结</h3><p>大脑重塑知识连接</p>
 <p><a href="https://mubu.com/doc/n8flMo5Do0" target="_blank" rel="noopener">https://mubu.com/doc/n8flMo5Do0</a></p>
-<p><img src="/2019/03/23/ARST-First-content/./ARST-First-content/image/多线程简介.png" alt="多线程简介"></p>
+<p><img src="/2019/03/23/ARST-First-content/多线程简介.png" alt="多线程简介"></p>
 <h3 id="分割线下面抄过来的"><a href="#分割线下面抄过来的" class="headerlink" title="分割线下面抄过来的"></a>分割线下面抄过来的</h3><p>现代计算机能够在同一时间执行多个操作，在硬件改进和智能操作系统的支持下，该特性使程序运行得更快，无论是在执行速度还是响应速度方面。<strong>Writing software that takes advantage of such power（multithreading） is fascinating, yet tricky: it requires you to understand what happens under your computer’s hood.</strong></p>
 <h2 id="Scratch-the-surface-of-threads"><a href="#Scratch-the-surface-of-threads" class="headerlink" title="Scratch the surface of threads"></a>Scratch the surface of threads</h2><h3 id="Processes-and-threads-naming-things-the-right-way"><a href="#Processes-and-threads-naming-things-the-right-way" class="headerlink" title="Processes and threads: naming things the right way"></a>Processes and threads: naming things the right way</h3><p>The operating system can run multiple programs at the same time. Each program is known as a <strong>Process</strong> that is being executed.操作系统知道许多软件技巧(在硬件和软件的基础上利用一定的运行方式和隔离规则)，可以使进程与其他进程一起运行。Running processes in an operating system is not the only way to perform several operations at the same time. Each process is able to run simultaneous sub-tasks within itself, called <strong>threads</strong>.<strong>You can think of a thread as a slice of the process itself.</strong></p>
 <p>在启动的时候，每个porcess至少触发一个thread，称为<strong>main thread</strong>。更加应用程序的需求，其他的线程肯被启动或者终止。<strong>Multithreading</strong> is about running multiple threads within a single process.</p>
 <p>the operating system as a container that holds multiple processes, where each process is a container that holds multiple threads.</p>
-<p><img src="/2019/03/23/ARST-First-content/./ARST-First-content/image/process and thread.jpg" alt="porcess and thread"></p>
+<p><img src="/2019/03/23/ARST-First-content/process and thread.jpg" alt="porcess and thread"></p>
 <h3 id="The-differences-between-processes-and-threads"><a href="#The-differences-between-processes-and-threads" class="headerlink" title="The differences between processes and threads"></a>The differences between processes and threads</h3><h4 id="Process"><a href="#Process" class="headerlink" title="Process"></a>Process</h4><ol>
 <li>Each process has its own chunk of memory assigned by the operating system.</li>
 <li>By default that memory cannot be shared with other processes: your browser has no access to the memory assigned to your media player and vice versa.</li>
@@ -418,7 +418,7 @@
 <li>it is not 100% guaranteed that threads will perform their operations truly in parallel, that is at the same time: it really depends on the underlying hardware.</li>
 </ol>
 <p><strong>The last one is crucial: if your computer doesn’t support multiple operations at the same time, the operating system has to fake them.</strong></p>
-<h4 id="并发和并行："><a href="#并发和并行：" class="headerlink" title="并发和并行："></a>并发和并行：</h4><p><img src="/2019/03/23/ARST-First-content/./ARST-First-content/image/cp.jpg" alt="并发和并行"></p>
+<h4 id="并发和并行："><a href="#并发和并行：" class="headerlink" title="并发和并行："></a>并发和并行：</h4><p><img src="/2019/03/23/ARST-First-content/cp.jpg" alt="并发和并行"></p>
 <p>计算机中的中央处理器(CPU)负责运行程序。它由几个部分组成，其中最主要的部分是所谓的核心:这是实际执行计算的地方。一个核心一次只能运行一个操作。这当然是一个主要的缺点。因此，操作系统开发了高级技术，使用户能够同时运行多个进程(或线程)，特别是在图形环境中，甚至在单核机器上。其中最重要的一种被称为抢占式多任务处理，抢占是指中断一项任务，切换到另一项任务，然后在稍后的时间恢复第一项任务的能力。因此，如果CPU只有一个核心，那么操作系统的部分工作就是将单个核心的计算能力分散到多个进程或线程上，这些进程或线程在一个循环中一个接一个地执行。这个操作给一种错觉，好像有多个程序并行运行，或者一个程序同时做多个事情(如果是多线程的)。虽然满足了并发性，但是真正的并行性—-同时运行进程的能力—-仍然缺失。</p>
 <p>不过目前的cpu都有多个核心，每个核心一次执行一个独立的操作。这意味着使用两个或多个内核可以实现真正的并行。操作系统能够检测CPU内核的数量，并为每个CPU内核分配进程或线程。一个线程可以分配给操作系统喜欢的任何核心，这种调度对于正在运行的程序来说是完全透明的。此外，优先级高的多任务处理可能会在所有核心都很忙的情况下发挥作用。这使您能够运行比计算机中可用的实际数目或内核更多的进程和线程。</p>
 <p>在单核机器上实现真正的并行是不可能的。不过，如果您的应用程序可以从中受益，那么编写多线程程序仍然是有意义的。当一个进程使用多个线程时，抢占式多任务处理可以使应用程序保持运行，即使其中一个线程执行了一个缓慢或阻塞的任务。例如，正在处理一个桌面应用程序，它从一个非常慢的磁盘读取一些数据。如果只使用一个线程编写程序，整个应用程序就会冻结，直到磁盘操作完成:在等待磁盘唤醒时，分配给唯一线程的CPU能量就会浪费。当然，除了这个进程之外，操作系统还在运行许多其他进程，但是您的特定应用程序不会取得任何进展。让我们以多线程的方式重新考虑您的应用程序。线程A负责磁盘访问，而线程B负责主接口。如果线程A因为设备速度慢而等待卡住，线程B仍然可以运行主界面，使程序保持响应。这是可能的，因为有两个线程，操作系统可以在它们之间切换CPU资源，而不会被较慢的线程卡住。</p>
@@ -447,12 +447,12 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#example</span></span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line">%matplotlib inline</span><br><span class="line"></span><br><span class="line">plt.rcParams[<span class="string">'font.sans-serif'</span>] = [<span class="string">'SimHei'</span>] <span class="comment">#设置字体，可以显示中文</span></span><br><span class="line">plt.rcParams[<span class="string">'font.size'</span>] = <span class="number">20</span> <span class="comment">#设置字体大小</span></span><br><span class="line">plt.rcParams[<span class="string">'axes.unicode_minus'</span>] = <span class="literal">False</span><span class="comment">#用来正常显示负号</span></span><br></pre></td></tr></table></figure>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x = np.random.random(size=(<span class="number">100</span>,<span class="number">1</span>))</span><br><span class="line">plt.plot(x)<span class="comment"># 坐标刻度默认朝外</span></span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[&lt;matplotlib.lines.Line2D at 0x94a35f8&gt;]</span><br></pre></td></tr></table></figure>
-<p><img src="/2019/03/23/ARST-First-content/./ARST-First-content/image/output_5_1.png" alt="png"></p>
+<p><img src="/2019/03/23/ARST-First-content/output_5_1.png" alt="png"></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#改变坐标刻度的方向朝内</span></span><br><span class="line"><span class="keyword">import</span> matplotlib <span class="keyword">as</span> mpl</span><br><span class="line">mpl.rcParams[<span class="string">'ytick.direction'</span>] = <span class="string">'in'</span> </span><br><span class="line">mpl.rcParams[<span class="string">'xtick.direction'</span>] = <span class="string">'in'</span> </span><br><span class="line">plt.plot(x)</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[&lt;matplotlib.lines.Line2D at 0x9018ac8&gt;]</span><br></pre></td></tr></table></figure>
-<p><img src="/2019/03/23/ARST-First-content/./ARST-First-content/image/output_6_1.png" alt="png"></p>
+<p><img src="/2019/03/23/ARST-First-content/output_6_1.png" alt="png"></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">plt.plot(x)</span><br><span class="line">plt.savefig(<span class="string">'test.jpg'</span>,bbox_inches = <span class="string">'tight'</span>)<span class="comment">#bbox_inches = 'tight' 保证去除边缘空白</span></span><br></pre></td></tr></table></figure>
-<p><img src="/2019/03/23/ARST-First-content/./ARST-First-content/image/output_7_0.png" alt="png"></p>
+<p><img src="/2019/03/23/ARST-First-content/output_7_0.png" alt="png"></p>
 <h1 id="Shares"><a href="#Shares" class="headerlink" title="Shares"></a>Shares</h1><p>Data as a mediator between computation and state（数据作为计算和状态之间的中介） <a href="https://www.tedinski.com/2018/08/28/using-data-to-mutate-state.html" target="_blank" rel="noopener">https://www.tedinski.com/2018/08/28/using-data-to-mutate-state.html</a></p>
 
       
